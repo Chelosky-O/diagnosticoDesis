@@ -59,9 +59,9 @@ INSERT INTO sucursales (nombre, bodega_id) VALUES
 
 INSERT INTO monedas (codigo, nombre) VALUES 
     ('CLP', 'Peso Chileno'),
-    ('USD', 'Dólar Americano'),
+    ('USD', 'Dolar'),
     ('EUR', 'Euro'),
-    ('PEN', 'Sol Peruano');
+    ('PEN', 'Sol');
 
 INSERT INTO materiales (nombre) VALUES 
     ('Plástico'),
