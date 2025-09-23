@@ -90,8 +90,8 @@ function cargarMateriales() {
 // Funciones Auxiliares
 function llenarSelect(selectId, datos) {
     const select = document.getElementById(selectId);
-    select.innerHTML = '<option value="">Seleccione una opción</option>';
-    
+    select.innerHTML = '<option value=""></option>';
+
     datos.forEach(item => {
         const option = document.createElement('option');
         option.value = item.id;

@@ -9,6 +9,7 @@ services:
       POSTGRES_DB: sistema_productos
       POSTGRES_USER: user
       POSTGRES_PASSWORD: 1234
+      PGCLIENTENCODING: UTF8
     ports:
       - "5432:5432"
     volumes:
