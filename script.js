@@ -102,7 +102,7 @@ function llenarSelect(selectId, datos) {
 
 function limpiarSucursales() {
     const sucursalSelect = document.getElementById('sucursal');
-    sucursalSelect.innerHTML = '<option value="">Seleccione una sucursal</option>';
+    sucursalSelect.innerHTML = '<option value=""></option>';
     sucursalSelect.disabled = true;
 }
 
